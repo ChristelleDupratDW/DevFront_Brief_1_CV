@@ -1,0 +1,140 @@
+body {
+    padding: 0px;
+
+}
+
+header {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    height: auto;
+    line-height: 30px;
+}
+
+.headercv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.identitee {
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    padding: 50px 1px 50px 50px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+
+p {
+    font-size: 15px;
+}
+
+.emphase {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnRS {
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.btn1 {
+    font-size: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.btn2 {
+    font-size: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.btn3 {
+    font-size: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+a:hover{
+    color: blueviolet;
+}
+
+.gridglobale{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+
+}
+
+
+
+@media (max-width:412px) {
+
+body{
+    background-color: rgb(76, 92, 138);
+    width: 100%;
+}
+}
